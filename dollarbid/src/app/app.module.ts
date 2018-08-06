@@ -19,7 +19,7 @@ import {
   MatSnackBarModule,
   MatListModule,
   MatProgressSpinnerModule,
-  MatTableModule,
+  MatTableModule, MatProgressBarModule,
 
 } from '@angular/material';
 import {MatFormFieldModule} from '@angular/material/form-field';
@@ -35,6 +35,7 @@ import {RegisterComponent} from "./register/register.component";
 import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {UserService} from "./User/user.service";
 import {BannerComponent} from "./banner/banner.component";
+import {BidComponent} from "./bid/bid.component";
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import {BannerComponent} from "./banner/banner.component";
     LoadingComponent,
     RegisterComponent,
     BannerComponent,
+    BidComponent,
   ],
   imports: [
     BrowserModule,
@@ -72,6 +74,7 @@ import {BannerComponent} from "./banner/banner.component";
     MatListModule,
     CookieModule.forRoot(),
     MatButtonToggleModule,
+    MatProgressBarModule,
   ],
   providers: [
     UserService,
@@ -79,6 +82,7 @@ import {BannerComponent} from "./banner/banner.component";
   entryComponents: [
     LoginComponent,
     LoadingComponent,
+    RegisterComponent,
   ],
   bootstrap: [AppComponent]
 })

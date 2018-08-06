@@ -1,36 +1,42 @@
-/deep/ app-nav .mat-tab-label {
-  min-width: 1px !important;
-  font-size: 12px !important;
-  font-weight: bold;
-  max-width: 90px;
-  color: #a7a7a7;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0px;
-  height: 60px;
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
-/*/deep/ .mat-tab-labels {*/
-  /*float:right;*/
-/*}*/
-/deep/ app-nav .mat-tab-label.mat-tab-disabled {
 
-  color: #a7a7a7;
-  margin-right: auto;
-  margin-left: auto;
+/deep/ app-nav mat-grid-list {
+  background-color: #000000b5 !important;
+  padding-bottom: 60px !important;
 }
+
+/deep/ app-nav mat-grid-tile {
+  padding-top: 55px !important;
+}
+
+.publish_btn {
+  position: fixed;
+  bottom: 1%;
+  width: 70px;
+  height: 70px;
+  font-size: 12px;
+  background-color: #f54336b5;
+}
+
+.publish_btn .nav_label {
+  line-height: 10px;
+}
+
+.nav_label {
+  line-height: 0px;
+  margin: 5px;
+  font-weight: 200;
+}
+
 app-nav div {
 
   right: 1px;
 }
 
-/deep/ app-nav .mat-tab-header, .mat-tab-nav-bar{
-  border-bottom: none;
-  background-color: #e61414;
-}
-/deep/ app-nav .mat-tab-label-active{
-
-  opacity: 1 !important;
-}
 
 /deep/ app-nav .mat-button{
   background-color: transparent;
@@ -41,7 +47,6 @@ app-nav div {
 }
 app-nav .nav{
   background-color: #e61414;
-
 }
 
 @media only screen and (min-width: 451px){
@@ -57,7 +62,3 @@ app-nav .nav{
   }
 }
 
-/deep/ app-nav .nav .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
-  /*background-color: #e61414 !important;*/
-  opacity: 0;
-}

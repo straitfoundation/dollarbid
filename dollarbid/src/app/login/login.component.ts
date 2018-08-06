@@ -6,6 +6,7 @@ import { MatSnackBar} from '@angular/material';
 import {AppComponent} from '../app.component';
 import {LoadingComponent} from '../loading/loading.component';
 import { CookieService } from 'ngx-cookie';
+import {RegisterComponent} from "../register/register.component";
 declare var $: any;
 
 @Component({
@@ -14,6 +15,8 @@ declare var $: any;
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  dialogResult;
+  registerDialog: any;
   username: string;
   password: string;
   myurl: string;
@@ -181,5 +184,16 @@ export class LoginComponent implements OnInit {
   }
   onCloseCancel() {
     this.thisDialogRef.close('Cancel');
+  }
+  register(){
+    this.thisDialogRef.close();
+    this.registerDialog = this.dialog.open(RegisterComponent, {
+      width: '100%',
+      data: 'This text is passed into the dialog!'
+    });
+    this.registerDialog.afterClosed().subscribe(result => {
+      console.log(`Dialog closed: ${result}`);
+      this.dialogResult = result;
+    });
   }
 }

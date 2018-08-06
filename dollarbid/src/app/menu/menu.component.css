@@ -1,4 +1,6 @@
-/deep/ .nav1 .mat-tab-label {
+
+
+/deep/ .menu .mat-tab-label {
   min-width: 1px !important;
   font-size: 8px !important;
 
@@ -10,14 +12,14 @@
   padding: 0px;
   height: 26px;
 }
- /deep/ .nav1 .mat-tab-labels{
+ /deep/ .menu .mat-tab-labels{
    float: right !important;
  }
-/deep/ .nav1 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+/deep/ .menu .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
   background-color: white !important;
 }
 
-/deep/ .nav1 button {
+/deep/ .menu button {
   min-width: 36px !important;
   padding: 10px !important;
   font-size: 10px !important;

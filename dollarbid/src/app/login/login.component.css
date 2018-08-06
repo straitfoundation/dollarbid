@@ -21,7 +21,7 @@ input.example-right-align {
 }
 
 .login_button {
-  background-color: #e61414;
+  /*background-color: #e61414;*/
 }
 
 /deep/ mat-hint {
@@ -30,4 +30,22 @@ input.example-right-align {
 
 /deep/ .mat-simple-snackbar-action {
   color: white !important;
+}
+
+.register {
+  width: 100%;
+  text-align: center;
+  color: black;
+  opacity: .87;
+  font-size: 12px;
+  font-weight: 200;
+  float: right;
+  width: 20%;
+}
+.login_header {
+  width: 100%;
+  float: left;
+}
+.divide {
+  width: 1px;
 }

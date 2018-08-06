@@ -9,11 +9,12 @@
 }
 
 .register_button {
-  background-color: #e61414;
+  /*background-color: #e61414;*/
 }
 h2 {
   /*text-align: center;*/
   border-bottom-style: solid;
-  border-bottom-color: #e61414;
+  border-bottom-color: #323232;
   border-bottom-width: 3px;
+  opacity: .7;
 }

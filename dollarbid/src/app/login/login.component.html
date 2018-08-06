@@ -1,4 +1,16 @@
 <div class="example-container">
+  <div class="login_header">
+    <div class="register" (click)="register()">
+      快速注册
+    </div>
+    <div class="register divide">
+      |
+    </div>
+    <div class="register">
+      忘记密码
+    </div>
+  </div>
+
   <mat-form-field>
     <input matInput placeholder="用户名" [(ngModel)]="username"  required>
     <!--<mat-hint>不存在{{usernameFalse}}</mat-hint>-->
@@ -14,4 +26,5 @@
     <!--<button mat-raised-button (click)="switch()">切换</button>-->
 
   </div>
+
 </div>
