@@ -1,0 +1,37 @@
+<h2>注册</h2>
+
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="用户名" [(ngModel)]="reg_username" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" >
+    <input matInput placeholder="密码" [type]="'password'" [(ngModel)]="reg_pwd" required>
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="再次输入密码" [type]="'password'" [(ngModel)]="reg_pwd_confirm" required>
+    <mat-error *ngIf="">
+      Please enter a valid email address
+    </mat-error>
+  </mat-form-field>
+
+  <!--<mat-form-field class="example-full-width">-->
+    <!--<input matInput placeholder="手机" [(ngModel)]="reg_phone" required>-->
+
+  <!--</mat-form-field>-->
+
+  <!--<mat-form-field class="example-full-width">-->
+    <!--<input matInput placeholder="验证手机">-->
+    <!--<button mat-button matSuffix (click)="send_sms()">{{sms}}</button>-->
+  <!--</mat-form-field>-->
+  <!--<mat-form-field class="example-full-width">-->
+    <!--<input matInput placeholder="邮箱">-->
+
+  <!--</mat-form-field>-->
+
+<div class="button-row">
+  <button mat-raised-button color="primary" (click)="registerIfInfo()" class="register_button">注册</button>
+
+  <button mat-raised-button (click)="Close()">取消</button>
+
+</div>

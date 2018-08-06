@@ -2,7 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f4b4f16-c7ad-4b68-bba7-0279c50e58bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/User/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/register/register.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/register/register.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/00/41/dde164125569987226d27924a2b9c1686fcc489445ef21e4d31606c0538f" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/00/41/dde164125569987226d27924a2b9c1686fcc489445ef21e4d31606c0538f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/00/92/d67dfad9f3e0a42411d44d2fd8654f52f57750048b7ece8d67d2642754e3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/00/92/d67dfad9f3e0a42411d44d2fd8654f52f57750048b7ece8d67d2642754e3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/01/89/9301a4ca636efac2cf89c03d03cea4248395691c7e4e8de219b878fbad43" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/01/89/9301a4ca636efac2cf89c03d03cea4248395691c7e4e8de219b878fbad43" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/02/2d/da5e299379f33ef42e956da1a40dc8308831f0c64182b5dbfe0fa75b508c" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/02/2d/da5e299379f33ef42e956da1a40dc8308831f0c64182b5dbfe0fa75b508c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/07/dd/190b49e77e081996d08614744718df065d66c8100d33755cf0d9f6223695" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/07/dd/190b49e77e081996d08614744718df065d66c8100d33755cf0d9f6223695" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/08/27/16ef08bebf628b00e30a38c52c3ee2b57c9eadf6d3b06976e769bd722ad3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/08/27/16ef08bebf628b00e30a38c52c3ee2b57c9eadf6d3b06976e769bd722ad3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/09/d1/2c5e4bdb2ebffcb38beec9b08f1a421044dadbbd2f4d8f9929d6e7a46abf" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/09/d1/2c5e4bdb2ebffcb38beec9b08f1a421044dadbbd2f4d8f9929d6e7a46abf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/0c/da/e8654aad33bbbf62a4857fbf8beed9c4ce05a6b6fee192da0d679cf0e3cc" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/0c/da/e8654aad33bbbf62a4857fbf8beed9c4ce05a6b6fee192da0d679cf0e3cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/11/d7/9a389bd7520ad1bcdc6a2a050876d7783dc3ec357143c6c6c7c8df92bd82" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/11/d7/9a389bd7520ad1bcdc6a2a050876d7783dc3ec357143c6c6c7c8df92bd82" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/11/e4/0f4cfdb85a67ea516c9c361dcc537c8b090310adcdc23d2b6eeb4679a134" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/11/e4/0f4cfdb85a67ea516c9c361dcc537c8b090310adcdc23d2b6eeb4679a134" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/15/2d/f5f9dce268e600369d7106c39b712270fa6107db8b206b00c823a8a3c9ce" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/15/2d/f5f9dce268e600369d7106c39b712270fa6107db8b206b00c823a8a3c9ce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/18/b6/8e67a81ffa36dcc0a81e4c1f706f7964bc3f6e27fa3354894bd25d32dab1" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/18/b6/8e67a81ffa36dcc0a81e4c1f706f7964bc3f6e27fa3354894bd25d32dab1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/18/ef/78d3f128164221e4e4208bf4396e8171ae8bdb4ccb3582ed65c965330026" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/18/ef/78d3f128164221e4e4208bf4396e8171ae8bdb4ccb3582ed65c965330026" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/19/16/ef4d366a68d2c4ccc97fc162102edebb2bec2dae2fa2b0a0acb6b056f0e3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/19/16/ef4d366a68d2c4ccc97fc162102edebb2bec2dae2fa2b0a0acb6b056f0e3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/1a/8a/5a53540668ad6b539fd5ff50f3295ecb87c13cbde5b7c90861ef5c9f5fca" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/1a/8a/5a53540668ad6b539fd5ff50f3295ecb87c13cbde5b7c90861ef5c9f5fca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/1c/54/a0ec02e1d1830abbfbf22dc509ce961d56dc7919cc52ab1804c697668661" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/1c/54/a0ec02e1d1830abbfbf22dc509ce961d56dc7919cc52ab1804c697668661" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/1c/d9/c780757f8f83ec2c4b106694c6dda982d44276828821e79c66b5f2092953" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/1c/d9/c780757f8f83ec2c4b106694c6dda982d44276828821e79c66b5f2092953" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/21/11/c5701e96f87e1e4fa9fc2ea48dec6667c522df85f7be77bbb7caaeb415ba" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/21/11/c5701e96f87e1e4fa9fc2ea48dec6667c522df85f7be77bbb7caaeb415ba" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/22/7d/52a6c0870e5f4ba745b186ebdd55e711d926ca5de29f941823ee95f9d7a8" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/22/7d/52a6c0870e5f4ba745b186ebdd55e711d926ca5de29f941823ee95f9d7a8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/23/d3/15b1d638eb69113e9461dfd8e0123d4531e7ae76a1a21b641314d0bf120b" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/23/d3/15b1d638eb69113e9461dfd8e0123d4531e7ae76a1a21b641314d0bf120b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/24/db/d0e5c11cb0272a94394b4ef12fb346b10e894050c048cadacfcce24c949f" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/24/db/d0e5c11cb0272a94394b4ef12fb346b10e894050c048cadacfcce24c949f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/25/2b/c9554fa69d02434693b3eee1b922785d23ad2d9a0a63d27b4eda64432f5c" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/25/2b/c9554fa69d02434693b3eee1b922785d23ad2d9a0a63d27b4eda64432f5c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/26/a9/368acf683b2ce55417193aa047c28e380b79459ae042d79d75e9ab465620" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/26/a9/368acf683b2ce55417193aa047c28e380b79459ae042d79d75e9ab465620" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/2a/73/f5b12412d0e8766b46ec3a813882f8caa828b5c3948efc5468c88b123a11" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/2a/73/f5b12412d0e8766b46ec3a813882f8caa828b5c3948efc5468c88b123a11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/35/bb/7ceabd3303229a525ebed08370be6a2a2506591c322b1e7144b8b7fbeb0a" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/35/bb/7ceabd3303229a525ebed08370be6a2a2506591c322b1e7144b8b7fbeb0a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/35/cf/2cae171a9b9abb6c3f1130afaaae8f45e818e41abebca87c63e7d9239640" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/35/cf/2cae171a9b9abb6c3f1130afaaae8f45e818e41abebca87c63e7d9239640" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/36/30/a3ae08fe998bf960a406e1456b8391cc0e3b551d215adfabf7d5862dbece" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/36/30/a3ae08fe998bf960a406e1456b8391cc0e3b551d215adfabf7d5862dbece" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/3b/5b/4c2242d7d23f38147f32d40f0cdabcc6ef10669bb2c8f6a5d70a3a66f0fc" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/3b/5b/4c2242d7d23f38147f32d40f0cdabcc6ef10669bb2c8f6a5d70a3a66f0fc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/40/8d/dfbc293be9aec60d486ecfadc25eaa8563d97ba697984a0d25240d19a373" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/40/8d/dfbc293be9aec60d486ecfadc25eaa8563d97ba697984a0d25240d19a373" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/41/7b/12f2f7af7f950c23d4cdb66d81b57e5ffd679a24f66f54f69674376024a5" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/41/7b/12f2f7af7f950c23d4cdb66d81b57e5ffd679a24f66f54f69674376024a5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/44/7c/7d21c38230dbe2cd221b314cae84e737355717d304bf48501d91f51b9f35" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/44/7c/7d21c38230dbe2cd221b314cae84e737355717d304bf48501d91f51b9f35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/48/a1/d75425424488c11a0e3bbb837bc4844613225b418b4357e07c7b8127f8c7" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/48/a1/d75425424488c11a0e3bbb837bc4844613225b418b4357e07c7b8127f8c7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/52/69/680161b9f7411439fa3226ab4c9f6f0c52d77ad6bcbfbc4e28a88d1593e6" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/52/69/680161b9f7411439fa3226ab4c9f6f0c52d77ad6bcbfbc4e28a88d1593e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/55/ba/5e16eab8d10e0c61838d3194a21a80e240db12a1e4f37ff4e435211edac6" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/55/ba/5e16eab8d10e0c61838d3194a21a80e240db12a1e4f37ff4e435211edac6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/5a/6c/cbedfba7f1f2603383e2c9389a4536ad7d88a7498f9ccce633b760e037dd" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/5a/6c/cbedfba7f1f2603383e2c9389a4536ad7d88a7498f9ccce633b760e037dd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/5e/ab/cad8c1c55eeda32d648f79d7c45c9bb91508f69abd09093389ae8e905c0b" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/5e/ab/cad8c1c55eeda32d648f79d7c45c9bb91508f69abd09093389ae8e905c0b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/5f/7c/f37c4b77a682451dc72baf565bc5b23cf01884a9facffe9a5cef71630844" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/5f/7c/f37c4b77a682451dc72baf565bc5b23cf01884a9facffe9a5cef71630844" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/60/08/0614a9991b7f58e60377bee22858d38570600f47949c0b7792b8b88821ab" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/60/08/0614a9991b7f58e60377bee22858d38570600f47949c0b7792b8b88821ab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/62/e9/2c17d0516cf9964dee4af48c49c49a536e4e24905a2adcb26400bf3514a6" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/62/e9/2c17d0516cf9964dee4af48c49c49a536e4e24905a2adcb26400bf3514a6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/66/76/ae373a8873069aa592834533810cf9543ee82ee36d5d7ff1e4c6b05f28f3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/66/76/ae373a8873069aa592834533810cf9543ee82ee36d5d7ff1e4c6b05f28f3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/66/bb/6e46437afeb8672e0c5f43269086aa41b0fdfeab2d0d495ef1f544f2b327" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/66/bb/6e46437afeb8672e0c5f43269086aa41b0fdfeab2d0d495ef1f544f2b327" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/67/99/2bcf3ae67e125dd7c37e505d5400dc8c1525210991853efeb91fff9e8e5b" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/67/99/2bcf3ae67e125dd7c37e505d5400dc8c1525210991853efeb91fff9e8e5b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6b/bb/38c19b6740e953879e5525e84d78aaf32bbbbf1243e705d26978d6ee3621" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6b/bb/38c19b6740e953879e5525e84d78aaf32bbbbf1243e705d26978d6ee3621" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6c/b8/bf3defaf56a777b0a2db86bdc94ecb2191281a9ae7585d3ff39ed841c8f5" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6c/b8/bf3defaf56a777b0a2db86bdc94ecb2191281a9ae7585d3ff39ed841c8f5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6e/b6/2f4672114ef1fc362d474be6b6ea509429339b919d384f4d6c70445b7695" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6e/b6/2f4672114ef1fc362d474be6b6ea509429339b919d384f4d6c70445b7695" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6f/5e/d77fe33dcb9422b5a37faad5396354b1848c0f784cb1a6eda6007697589a" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6f/5e/d77fe33dcb9422b5a37faad5396354b1848c0f784cb1a6eda6007697589a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6f/bf/2d6ced24d2bf06ff3ae684d783856c45e55af5c37f95409c7732c5e69770" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/6f/bf/2d6ced24d2bf06ff3ae684d783856c45e55af5c37f95409c7732c5e69770" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/71/67/5e93982939bbc293fb8dcaf63717c57fa0b448800edb2b73031446e900bc" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/71/67/5e93982939bbc293fb8dcaf63717c57fa0b448800edb2b73031446e900bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7a/6a/a1d22adf3e0141128493d222f4944d754f914244b8cca9318ab5cef2cfed" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7a/6a/a1d22adf3e0141128493d222f4944d754f914244b8cca9318ab5cef2cfed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7a/9c/13126f497c69f753beb44911c1bfeb44f7f9d926432067c433b9bce44121" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7a/9c/13126f497c69f753beb44911c1bfeb44f7f9d926432067c433b9bce44121" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7b/4e/baaf3c8489c3226c8c1f119471057b216454260b34aad7593df8b9119c9d" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7b/4e/baaf3c8489c3226c8c1f119471057b216454260b34aad7593df8b9119c9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7d/e8/5446c5cdae0493e4ad3b10347b77c8df4b17b5fbe14834f5c6b06faa9f95" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7d/e8/5446c5cdae0493e4ad3b10347b77c8df4b17b5fbe14834f5c6b06faa9f95" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7f/48/5c14591892a999a5ca58d733f7f32e015ecb7a194df9d6ac9fc218d57f9a" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7f/48/5c14591892a999a5ca58d733f7f32e015ecb7a194df9d6ac9fc218d57f9a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7f/e8/44367f5737d5655179d4e3133d0869d023ed6568e2a867cf434412aa6e8c" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/7f/e8/44367f5737d5655179d4e3133d0869d023ed6568e2a867cf434412aa6e8c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/81/dd/7d5142549d8d59b3a092b412ba8f4abb4a2a8fd3b5e5a6c8d7bc86bb0ef2" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/81/dd/7d5142549d8d59b3a092b412ba8f4abb4a2a8fd3b5e5a6c8d7bc86bb0ef2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/85/d7/35451b5014896038d27e12635c2589bad8bc9a42d4e9c0145a169c27aecf" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/85/d7/35451b5014896038d27e12635c2589bad8bc9a42d4e9c0145a169c27aecf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/85/e9/46e24c3a722dec4f9352d837caa58e4491276536d31309ea1925a57dff00" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/85/e9/46e24c3a722dec4f9352d837caa58e4491276536d31309ea1925a57dff00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/86/a2/5b27bb74c4b5717e38015bd570d651f9a9ebdd15044c34b5717193654f28" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/86/a2/5b27bb74c4b5717e38015bd570d651f9a9ebdd15044c34b5717193654f28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/87/42/23fa01f70917d8b9065dcd8590e415f30660b5609f3a5f2ad8bed3a7ee60" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/87/42/23fa01f70917d8b9065dcd8590e415f30660b5609f3a5f2ad8bed3a7ee60" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8a/9f/09b98a2d473f5eabb09c8e7bfc07a5f7a246b395fc6c679659227f24ca31" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8a/9f/09b98a2d473f5eabb09c8e7bfc07a5f7a246b395fc6c679659227f24ca31" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8b/31/bc01d265bae3ca83af69c0d83a12d6131c1075830ffa93b7ea52768a7363" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8b/31/bc01d265bae3ca83af69c0d83a12d6131c1075830ffa93b7ea52768a7363" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8b/b6/5a9f167e7dcb5db69d142d0d19f5bf0f7ee894d441e9d987d8713670865c" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8b/b6/5a9f167e7dcb5db69d142d0d19f5bf0f7ee894d441e9d987d8713670865c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8e/58/1ce1355f39c75fa063f8dc1c958c11d57446438253b206afc18efb9f28c9" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/8e/58/1ce1355f39c75fa063f8dc1c958c11d57446438253b206afc18efb9f28c9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/90/f9/6a26b3c4bfbbfa406b25b77f2068ed736d66e77bcd10ec1c57d743fc43a8" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/90/f9/6a26b3c4bfbbfa406b25b77f2068ed736d66e77bcd10ec1c57d743fc43a8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/92/93/2598953ffc8c5d479261876082fe43f9624f322289b72d3f90f2e08bb276" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/92/93/2598953ffc8c5d479261876082fe43f9624f322289b72d3f90f2e08bb276" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/93/c9/a0dbbd75ae853d67c5f17925e577e7c57bbe2b2ab879ccf8537edd7bad8f" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/93/c9/a0dbbd75ae853d67c5f17925e577e7c57bbe2b2ab879ccf8537edd7bad8f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/95/af/22c6a839205628feaf60de48f584fed7f9639fec3479b585882f8b30e3ee" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/95/af/22c6a839205628feaf60de48f584fed7f9639fec3479b585882f8b30e3ee" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/97/2a/03a1b9559a3a37b035bdf0a91e5ef8519eda6c80bbecceed0e3b5e4dc88b" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/97/2a/03a1b9559a3a37b035bdf0a91e5ef8519eda6c80bbecceed0e3b5e4dc88b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/98/20/8cf39748e26add3139706a657e8908982a79143e5c985f1a3fd09031cf57" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/98/20/8cf39748e26add3139706a657e8908982a79143e5c985f1a3fd09031cf57" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/9e/a5/b6441e48e0759935ff5fcea3d2e92c94e0b62e22bcb359d468e677ee870f" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/9e/a5/b6441e48e0759935ff5fcea3d2e92c94e0b62e22bcb359d468e677ee870f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/a0/c6/040205eebe8a1469c51bd2cf204508de0c8c99d31041c9481a8f7a10adb3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/a4/4b/235a88457018cccb18c84047f7c75b0db329eaff1e5932a7dc180506cbf6" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/a4/4b/235a88457018cccb18c84047f7c75b0db329eaff1e5932a7dc180506cbf6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/a7/3a/0a4cfd9b6e83db580c69d3d03a547420834ce3f27dad6899c719e9c8bf35" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/a7/3a/0a4cfd9b6e83db580c69d3d03a547420834ce3f27dad6899c719e9c8bf35" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ab/6a/e2bfcdcd826a4dfd2b7035faa7ac5921cb0563c853a0427c938b4eafd338" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ab/6a/e2bfcdcd826a4dfd2b7035faa7ac5921cb0563c853a0427c938b4eafd338" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ab/6f/9272418dc7aad6ad0626af51e7e8e249caaf880f77f2809953ccefbf9140" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ab/6f/9272418dc7aad6ad0626af51e7e8e249caaf880f77f2809953ccefbf9140" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ad/61/8dddf2bd79472c4ffce70d15930b9ad34a6b139ee6817c5af0547186b82c" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ad/61/8dddf2bd79472c4ffce70d15930b9ad34a6b139ee6817c5af0547186b82c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/b3/60/372874e32ea76edcae24d4aeeda751d0bc8c1f2650ed24cac1f6ec1a4fb0" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/b3/60/372874e32ea76edcae24d4aeeda751d0bc8c1f2650ed24cac1f6ec1a4fb0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/b7/db/d00f8af6bd424a81e4be925b70165f2959fee554783e4a067bb0fee3d75e" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/b7/db/d00f8af6bd424a81e4be925b70165f2959fee554783e4a067bb0fee3d75e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/b9/de/c7ccbe139231637ae2e5431511e792cb69adaa46bf9b37195f87a17f3b9c" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/b9/de/c7ccbe139231637ae2e5431511e792cb69adaa46bf9b37195f87a17f3b9c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/bc/96/32683f7ffb7731d6518f96344b35c74b7e49ed661d40e28ab211841d1e09" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/bc/96/32683f7ffb7731d6518f96344b35c74b7e49ed661d40e28ab211841d1e09" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/c0/e2/d380759c942875c977697704115ab2e7079e252f2f02db4b080a337441ae" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/c0/e2/d380759c942875c977697704115ab2e7079e252f2f02db4b080a337441ae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/c1/8e/b2d9565fe60306da42efbbd6978e09bc583a7fa954ad3b148dc9c4793e51" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/c1/8e/b2d9565fe60306da42efbbd6978e09bc583a7fa954ad3b148dc9c4793e51" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/c1/d3/d6d16b3e7aa7edfdb1c5fe8ef0f9933ff289b5ae0026745e58f8b9d16511" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/c1/d3/d6d16b3e7aa7edfdb1c5fe8ef0f9933ff289b5ae0026745e58f8b9d16511" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ca/f8/5fdf8973f1896e77c07a4919f6166c6a04ef8354c5efb0156670a06d24e3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ca/f8/5fdf8973f1896e77c07a4919f6166c6a04ef8354c5efb0156670a06d24e3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/d9/0e/e0baf3a82c7ec01f9ef80c9a4533986fb70a50ba4f9fc4a40f2e544ce737" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/d9/0e/e0baf3a82c7ec01f9ef80c9a4533986fb70a50ba4f9fc4a40f2e544ce737" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/d9/46/6c30729913d6c2b85ab412b01b2b92a814a1fe8c2b770067113bc9893df3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/d9/46/6c30729913d6c2b85ab412b01b2b92a814a1fe8c2b770067113bc9893df3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e0/34/dd453ff02308bf24c0558057ded921376aad52fe485b383e7964429568eb" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e0/34/dd453ff02308bf24c0558057ded921376aad52fe485b383e7964429568eb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e1/13/93ce94681e657042ac6ac254ea9ccbd31daf9d0b772279a9e41b3fb72d95" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e1/13/93ce94681e657042ac6ac254ea9ccbd31daf9d0b772279a9e41b3fb72d95" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e1/c9/c6e2e99e976d972028423bd8e9c8803137a4b1bb6c94b699235e9bb55736" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e1/c9/c6e2e99e976d972028423bd8e9c8803137a4b1bb6c94b699235e9bb55736" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e2/0b/e7a95828c3a0abbf0a465684edea4ff38c9d00659712989055a405cd9ef3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e2/0b/e7a95828c3a0abbf0a465684edea4ff38c9d00659712989055a405cd9ef3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e2/db/35a07ca94b6294d4da9beb91f5f126663b81b96d0d02676f1c4d7bd1b992" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e2/db/35a07ca94b6294d4da9beb91f5f126663b81b96d0d02676f1c4d7bd1b992" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e3/57/600db2236b7babc107e0a4133335d573b060586e3e1b8260014f5d743f4b" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e3/57/600db2236b7babc107e0a4133335d573b060586e3e1b8260014f5d743f4b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e6/37/c9e69f5074e9a22c766ffcc622280d4e580d2ee0238f670f28199487dd44" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e6/37/c9e69f5074e9a22c766ffcc622280d4e580d2ee0238f670f28199487dd44" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e6/95/fa9c994121ed142a2e5d4f1ac42e1b494f767340cb6ba4e34f0f31facc9d" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/e6/95/fa9c994121ed142a2e5d4f1ac42e1b494f767340cb6ba4e34f0f31facc9d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/eb/75/06bca6b8edb8fa34ddd9b39505e756613575b057ebdef95966fd45c0ebe1" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/eb/75/06bca6b8edb8fa34ddd9b39505e756613575b057ebdef95966fd45c0ebe1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/eb/d5/caf6039ef9fd729e3b7032f2246dc0fb17b5dba9d9539d2414371a4bddca" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/eb/d5/caf6039ef9fd729e3b7032f2246dc0fb17b5dba9d9539d2414371a4bddca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ef/7e/138d06536fa4ad47a86841653c3ff37ac8a889bfd425926c5c32d3489804" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/ef/7e/138d06536fa4ad47a86841653c3ff37ac8a889bfd425926c5c32d3489804" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f2/f6/4ef532f91802ab7c052af1d3b918d72e0949b9d4071ac7b6731527d62638" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f2/f6/4ef532f91802ab7c052af1d3b918d72e0949b9d4071ac7b6731527d62638" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f7/05/7f3d7ab71095c636b2fd54a6dac2eb353d3ccea0f2bdfebf43fc2a99a7ab" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f7/05/7f3d7ab71095c636b2fd54a6dac2eb353d3ccea0f2bdfebf43fc2a99a7ab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f7/3f/9c0fad120c917808893aac66f088217af3f880bb8e51845eec83481f0272" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f7/3f/9c0fad120c917808893aac66f088217af3f880bb8e51845eec83481f0272" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f7/83/f6d745edc6348460207733876a8ee9e9a527c28fd14a23b81f5d00386b04" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/f7/83/f6d745edc6348460207733876a8ee9e9a527c28fd14a23b81f5d00386b04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fb/4b/0fb3ce45fb690a1851537ed333cfcfd6be1e8b868b655055069aab25adf3" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fb/4b/0fb3ce45fb690a1851537ed333cfcfd6be1e8b868b655055069aab25adf3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fb/71/feb8d9228b0423904cb337a8cfd5dadc96844baf9810dea7d35b5d5c64f4" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fb/71/feb8d9228b0423904cb337a8cfd5dadc96844baf9810dea7d35b5d5c64f4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fc/b9/d14641ca9b49399d982314e9297ab3a0c090e2ec773c37b440f9be791ad6" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fc/b9/d14641ca9b49399d982314e9297ab3a0c090e2ec773c37b440f9be791ad6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fc/ee/fc3e1dd6706bd557d2840d92ff10cdd6928b92fb8c46d2195dfbd8d4b2be" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fc/ee/fc3e1dd6706bd557d2840d92ff10cdd6928b92fb8c46d2195dfbd8d4b2be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fe/2d/9bf8ddda981c1340cae8f412b86870a6ac97944ceaf772db609537a94b80" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/_cacache/index-v5/fe/2d/9bf8ddda981c1340cae8f412b86870a6ac97944ceaf772db609537a94b80" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/anonymous-cli-metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/anonymous-cli-metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/node_cache/index-v5/34/8e/30c54cce758990bcd1b33114c4aa8a9e5a25c152ac39d9feab22b7e13e00" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/node_cache/index-v5/34/8e/30c54cce758990bcd1b33114c4aa8a9e5a25c152ac39d9feab22b7e13e00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_cache/_cacache/index-v5/5e/d9/cd277fda94491322a63a354df8065c6dd35565600275cb5a71d09187b422" beforeDir="false" afterPath="$PROJECT_DIR$/node_cache/_cacache/index-v5/5e/d9/cd277fda94491322a63a354df8065c6dd35565600275cb5a71d09187b422" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_cache/_cacache/index-v5/cd/4b/df67c5a60c514ad74ae1b439ea6a9897b677f05c9c1711006725e288629e" beforeDir="false" afterPath="$PROJECT_DIR$/node_cache/_cacache/index-v5/cd/4b/df67c5a60c514ad74ae1b439ea6a9897b677f05c9c1711006725e288629e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_cache/_cacache/index-v5/f8/41/5dac66057141ab7e227a32067f60d10f7473ffe35eca6806d650a750aaa4" beforeDir="false" afterPath="$PROJECT_DIR$/node_cache/_cacache/index-v5/f8/41/5dac66057141ab7e227a32067f60d10f7473ffe35eca6806d650a750aaa4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_cache/anonymous-cli-metrics.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_cache/anonymous-cli-metrics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_cache/index-v5/34/8e/30c54cce758990bcd1b33114c4aa8a9e5a25c152ac39d9feab22b7e13e00" beforeDir="false" afterPath="$PROJECT_DIR$/node_cache/index-v5/34/8e/30c54cce758990bcd1b33114c4aa8a9e5a25c152ac39d9feab22b7e13e00" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,16 +161,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dollarbid/package.json">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/User/user.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="banner.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loading.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.component.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.spec.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#73#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dollarbid/src/app/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#57#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/user</find>
+      <find>require</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/dollarbid/src/app</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,7 +272,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/dollarbid/src/styles.css" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/topmenu/topmenu.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/index.html" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/register/register.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/User/user.service.spec.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/dollarbid/package.json" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/User/user.service.ts" />
       </list>
     </option>
   </component>
@@ -58,6 +311,9 @@
     <option name="width" value="1440" />
     <option name="height" value="817" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -76,6 +332,85 @@
               <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
               <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="fesm5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -88,6 +423,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/dollarbid/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dollarbid/src/app" />
+      <recent name="$PROJECT_DIR$/dollarbid/src/app/User" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,8 +468,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -141,29 +483,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533369471759</updated>
-      <workItem from="1533369473537" duration="737000" />
+      <workItem from="1533369473537" duration="9104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="737000" />
+    <option name="totallyTimeSpent" value="9104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.24982357" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" sideWeight="0.5010352" side_tool="true" visible="true" weight="0.24982357" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.24982357" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -178,11 +521,185 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dollarbid/package.json">
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/User/user.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/User/user.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-887" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/register/register.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/fesm5/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="4986" column="6" lean-forward="true" selection-start-line="4986" selection-start-column="6" selection-end-line="4986" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/User/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>

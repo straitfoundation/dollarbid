@@ -1,0 +1,28 @@
+/deep/ .nav1 .mat-tab-label {
+  min-width: 1px !important;
+  font-size: 8px !important;
+
+  color: black;
+  max-width: 90px;
+  min-width: 1px !important;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  height: 26px;
+}
+ /deep/ .nav1 .mat-tab-labels{
+   float: right !important;
+ }
+/deep/ .nav1 .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  background-color: white !important;
+}
+
+/deep/ .nav1 button {
+  min-width: 36px !important;
+  padding: 10px !important;
+  font-size: 10px !important;
+}
+
+/deep/ .cdk-overlay-pane {
+  max-width: 100vw !important;
+}

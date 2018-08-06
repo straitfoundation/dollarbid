@@ -1,0 +1,23 @@
+.spinner {
+  width: 35%;
+  float: left;
+}
+
+.label {
+  width: 65%;
+  float: left;
+}
+
+/deep/ .loading .mat-spinner {
+  width: 50px !important;
+  height: 50px !important;
+}
+/deep/ .loading .mat-spinner svg{
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.spinner_label {
+  opacity: 0.87;
+  color: #323232;
+}

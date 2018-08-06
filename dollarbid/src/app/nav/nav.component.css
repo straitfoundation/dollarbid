@@ -1,0 +1,63 @@
+/deep/ app-nav .mat-tab-label {
+  min-width: 1px !important;
+  font-size: 12px !important;
+  font-weight: bold;
+  max-width: 90px;
+  color: #a7a7a7;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0px;
+  height: 60px;
+}
+/*/deep/ .mat-tab-labels {*/
+  /*float:right;*/
+/*}*/
+/deep/ app-nav .mat-tab-label.mat-tab-disabled {
+
+  color: #a7a7a7;
+  margin-right: auto;
+  margin-left: auto;
+}
+app-nav div {
+
+  right: 1px;
+}
+
+/deep/ app-nav .mat-tab-header, .mat-tab-nav-bar{
+  border-bottom: none;
+  background-color: #e61414;
+}
+/deep/ app-nav .mat-tab-label-active{
+
+  opacity: 1 !important;
+}
+
+/deep/ app-nav .mat-button{
+  background-color: transparent;
+  min-width: 1px !important;
+
+  font-size: 12px !important;
+  color: #ffffff;
+}
+app-nav .nav{
+  background-color: #e61414;
+
+}
+
+@media only screen and (min-width: 451px){
+  /deep/ app-nav .mat-tab-label-container {
+    margin-left: 35% !important;
+    margin-right: 35% !important;
+  }
+}
+@media only screen and (max-width: 450px){
+  mat-tab-group{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+}
+
+/deep/ app-nav .nav .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  /*background-color: #e61414 !important;*/
+  opacity: 0;
+}

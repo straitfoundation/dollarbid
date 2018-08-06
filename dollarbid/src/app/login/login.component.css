@@ -1,0 +1,33 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+
+.login_button {
+  background-color: #e61414;
+}
+
+/deep/ mat-hint {
+  color: #e61414 !important;
+}
+
+/deep/ .mat-simple-snackbar-action {
+  color: white !important;
+}

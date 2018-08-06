@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<nav>
+<div class="nav1">
+  <mat-tab-group>
+    <mat-tab label="" *ngIf="!isLogin">
+      <ng-template mat-tab-label>
+        <button mat-button (click)="openLogin()">登录</button>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="">
+      <ng-template mat-tab-label *ngIf="!isLogin">
+        <button mat-button (click)="openRegister()">注册</button>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="" *ngIf="isLogin">
+      <ng-template mat-tab-label>
+        <button mat-button disabled>{{username}}</button>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="">
+      <ng-template mat-tab-label *ngIf="isLogin">
+        <button mat-button  [matMenuTriggerFor]="menu">个人中心</button>
+      </ng-template>
+      <mat-menu #menu="matMenu" [overlapTrigger]="false">
+        <button mat-menu-item (click)="openPerson(0)">个人资料</button>
+        <button mat-menu-item (click)="openPerson(1)">我的投注</button>
+        <button mat-menu-item (click)="openPerson(2)">我的盘口</button>
+      </mat-menu>
+    </mat-tab>
+
+    <mat-tab label="">
+      <ng-template mat-tab-label *ngIf="isLogin">
+        <button mat-button (click)="exit()">登出</button>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="">
+      <ng-template mat-tab-label>
+        <button mat-button (click)="openCharge()">充值/变现</button>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="">
+      <ng-template mat-tab-label>
+        <button mat-button (click)="openHelp(0)">帮助</button>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab label="">
+      <ng-template mat-tab-label>
+        <button mat-button disabled>0.99.20180720</button>
+      </ng-template>
+    </mat-tab>
+    <!--<mat-tab label="">-->
+      <!--<ng-template mat-tab-label>-->
+        <!--<mat-icon>search</mat-icon>-->
+      <!--</ng-template>-->
+    <!--</mat-tab>-->
+
+  </mat-tab-group>
+
+
+
+</div>
+</nav>

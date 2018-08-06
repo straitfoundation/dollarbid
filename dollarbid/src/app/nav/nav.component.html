@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<div class="nav">
+  <mat-tab-group>
+    <mat-tab label="">
+      <ng-template mat-tab-label>
+        <button mat-button>我要投注</button>
+      </ng-template>
+      <app-banner></app-banner>
+      <!--<app-index></app-index>-->
+    </mat-tab>
+    <mat-tab label="|" disabled></mat-tab>
+    <mat-tab label="">
+      <ng-template mat-tab-label>
+        <!--<button mat-button (click)="Publish()" [disabled]="disabled_publish">我要发布</button>-->
+        <button mat-button [disabled]="disabled_publish">我要开盘</button>
+      </ng-template>
+      <!--<app-publishlist></app-publishlist>-->
+    </mat-tab>
+    <mat-tab label="|" disabled></mat-tab>
+    <mat-tab label="">
+      <ng-template mat-tab-label>
+        <button mat-button>区块链浏览器</button>
+      </ng-template>
+      <app-banner></app-banner>
+    </mat-tab>
+
+    <!--<mat-tab label="">-->
+      <!--<ng-template mat-tab-label>-->
+        <!--<mat-icon>search</mat-icon>-->
+      <!--</ng-template>-->
+    <!--</mat-tab>-->
+
+  </mat-tab-group>
+
+
+
+</div>

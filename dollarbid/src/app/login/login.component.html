@@ -1,0 +1,17 @@
+<div class="example-container">
+  <mat-form-field>
+    <input matInput placeholder="用户名" [(ngModel)]="username"  required>
+    <!--<mat-hint>不存在{{usernameFalse}}</mat-hint>-->
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="密码" [type]="hide ? 'password' : 'text'"  [(ngModel)]="password" required>
+    <mat-icon matSuffix (click)="hide = !hide">{{hide ? 'visibility' : 'visibility_off'}}</mat-icon>
+  </mat-form-field>
+  <div class="button-row">
+    <button mat-raised-button color="primary" (click)="LoginIf()" class="login_button">登录</button>
+
+    <button mat-raised-button (click)="onCloseCancel()">取消</button>
+    <!--<button mat-raised-button (click)="switch()">切换</button>-->
+
+  </div>
+</div>
