@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/10.3.0/bin/node',
+1 verbose cli   '/usr/local/lib/node_modules/npm/bin/npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build',
+1 verbose cli   '--scripts-prepend-node-path=auto' ]
+2 info using npm@6.1.0
+3 info using node@v10.3.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle dollarbid@0.0.0~prebuild: dollarbid@0.0.0
+6 info lifecycle dollarbid@0.0.0~build: dollarbid@0.0.0
+7 verbose lifecycle dollarbid@0.0.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle dollarbid@0.0.0~build: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/yueliu/WebstormProjects/dollarbid/dollarbid/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin/node_global/bin/:/usr/local/mysql/support-files
+9 verbose lifecycle dollarbid@0.0.0~build: CWD: /Users/yueliu/WebstormProjects/dollarbid/dollarbid
+10 silly lifecycle dollarbid@0.0.0~build: Args: [ '-c', 'ng build --prod' ]
+11 silly lifecycle dollarbid@0.0.0~build: Returned: code: 1  signal: null
+12 info lifecycle dollarbid@0.0.0~build: Failed to exec build script
+13 verbose stack Error: dollarbid@0.0.0 build: `ng build --prod`
+13 verbose stack Exit status 1
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:304:16)
+13 verbose stack     at EventEmitter.emit (events.js:182:13)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:182:13)
+13 verbose stack     at maybeClose (internal/child_process.js:961:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:248:5)
+14 verbose pkgid dollarbid@0.0.0
+15 verbose cwd /Users/yueliu/WebstormProjects/dollarbid/dollarbid
+16 verbose Darwin 17.7.0
+17 verbose argv "/usr/local/Cellar/node/10.3.0/bin/node" "/usr/local/lib/node_modules/npm/bin/npm-cli.js" "run" "build" "--scripts-prepend-node-path=auto"
+18 verbose node v10.3.0
+19 verbose npm  v6.1.0
+20 error code ELIFECYCLE
+21 error errno 1
+22 error dollarbid@0.0.0 build: `ng build --prod`
+22 error Exit status 1
+23 error Failed at the dollarbid@0.0.0 build script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,9 +1,82 @@
 
 <div class="index">
+  <!--<button mat-raised-button color="primary" class="index-title" (click)="openHelp(2)">-->
+    <!--<mat-icon class="subtitle_left">view_list</mat-icon>-->
+    <!--<div class="subtitle">全部商品</div>-->
+    <!--&lt;!&ndash;全部，不动产，大宗商品，权证，食品药品，珠宝贵金属，奢饰品，生活用品&ndash;&gt;-->
+    <!--&lt;!&ndash;<div class="subtitle_more"><mat-icon>more_vert</mat-icon></div>&ndash;&gt;-->
+    <!--<mat-icon class="subtitle_icon">more_vert</mat-icon>-->
 
-    <button mat-raised-button color="primary" class="index-title" (click)="openHelp(1)">
-      <mat-icon class="subtitle_left">thumb_up_alt</mat-icon>
-      <div class="subtitle">热门聚焦</div>
+  <!--</button>-->
+  <div class="category_list">
+  <div class="category category_right category_bottom">
+    <div class="category_icon">
+      <mat-icon>storage</mat-icon>
+    </div>
+    <div class="category_name">
+      全部
+    </div>
+  </div>
+  <div class="category category_right category_bottom">
+    <div class="category_icon">
+      <mat-icon>flight</mat-icon>
+    </div>
+    <div class="category_name">
+      大宗商品
+    </div>
+  </div>
+  <div class="category category_right category_bottom">
+    <div class="category_icon">
+      <mat-icon>location_city</mat-icon>
+    </div>
+    <div class="category_name">
+      不动产
+    </div>
+  </div>
+  <div class="category category_bottom">
+    <div class="category_icon">
+      <mat-icon>local_post_office</mat-icon>
+    </div>
+    <div class="category_name">
+      权证
+    </div>
+  </div>
+  <div class="category category_right">
+    <div class="category_icon">
+      <mat-icon>fastfood</mat-icon>
+    </div>
+    <div class="category_name">
+      食品药品
+    </div>
+  </div>
+  <div class="category category_right">
+    <div class="category_icon">
+      <mat-icon>filter_vintage</mat-icon>
+    </div>
+    <div class="category_name">
+      珠宝贵金属
+    </div>
+  </div>
+  <div class="category category_right">
+    <div class="category_icon">
+      <mat-icon>local_mall</mat-icon>
+    </div>
+    <div class="category_name">
+      奢侈品
+    </div>
+  </div>
+  <div class="category">
+    <div class="category_icon">
+      <mat-icon>child_friendly</mat-icon>
+    </div>
+    <div class="category_name">
+      生活用品
+    </div>
+  </div>
+  </div>
+    <button mat-raised-button color="primary" class="index-title">
+      <mat-icon class="subtitle_left">favorite</mat-icon>
+      <div class="subtitle">人气商品</div>
       <!--<mat-icon class="subtitle_icon">help</mat-icon>-->
     </button>
 
@@ -38,7 +111,7 @@
 
 
 
-  <button mat-raised-button color="primary" class="index-title" (click)="openHelp(2)">
+  <button mat-raised-button color="primary" class="index-title">
     <mat-icon class="subtitle_left">today</mat-icon>
     <div class="subtitle">最新发布</div>
     <!--<mat-icon class="subtitle_icon">help</mat-icon>-->
@@ -72,37 +145,5 @@
     </mat-card-actions>
   </mat-card>
 
-  <button mat-raised-button color="primary" class="index-title" (click)="openHelp(2)">
-    <mat-icon class="subtitle_left">view_list</mat-icon>
-    <div class="subtitle">全部商品</div>
-    <!--<mat-icon class="subtitle_icon">help</mat-icon>-->
-  </button>
-  <mat-card class="example-card" *ngFor="let good of goods">
-    <img mat-card-image src="{{good.img}}" alt="">
-    <mat-card-content>
-      <div class="content_form">
-        <div class="content_name">{{good.name}}</div>
-        <div class="content_desc">{{good.desc}}</div>
-      </div>
-      <div class="content_form">
-        <div class="content_left content_left_progress_40">{{round(good.progress/good.price*100)}}%</div>
-        <div class="content_left content_left_progress_41" *ngIf="round(good.progress/good.price*100) > 60">{{round(good.progress/good.price*100)}}%</div>
-        <div class="content_right content_right_progress">
-          <mat-progress-bar mode="determinate" value="{{good.progress/good.price*100}}" color="warn"></mat-progress-bar>
-        </div>
-      </div>
-      <div class="content_form">
-        <div class="content_left">价格</div>
-        <div class="content_right">{{good.price}}</div>
-      </div>
-      <div class="content_form">
-        <div class="content_left">截止日期</div>
-        <div class="content_right">{{good.endDate}}</div>
-      </div>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button color="primary" (click)="openWhenLogin()" class="join_button">{{bet_txt}}</button>
-      <!--<button mat-button>SHARE</button>-->
-    </mat-card-actions>
-  </mat-card>
+
 </div>

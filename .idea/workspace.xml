@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f4b4f16-c7ad-4b68-bba7-0279c50e58bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/app.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/banner/banner.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/app/register/register.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/app/register/register.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dollarbid/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dollarbid/src/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +18,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="bid.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="300">
               <caret line="28" column="153" selection-start-line="28" selection-start-column="153" selection-end-line="28" selection-end-column="153" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
@@ -46,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bid.component.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bid.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="210" column="22" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
+            <state relative-caret-position="297">
+              <caret line="240" column="26" lean-forward="true" selection-start-line="240" selection-start-column="26" selection-end-line="240" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -67,17 +52,17 @@
       <file leaf-file-name="nav.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="14" column="70" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="70" />
+            <state relative-caret-position="360">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bid.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bid.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -85,7 +70,7 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
+            <state relative-caret-position="585">
               <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -108,7 +93,7 @@
       <file leaf-file-name="bid.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
+            <state relative-caret-position="330">
               <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
             </state>
           </provider>
@@ -139,9 +124,10 @@
       <find>nav1</find>
       <find>31</find>
       <find>join_bu</find>
-      <find>subtitle</find>
       <find>index</find>
       <find>image</find>
+      <find>subtitle</find>
+      <find>mat-card-image</find>
       <find>login</find>
     </findStrings>
     <replaceStrings>
@@ -178,11 +164,11 @@
         <option value="$PROJECT_DIR$/dollarbid/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/dollarbid/src/app/bid/bid.service.ts" />
         <option value="$PROJECT_DIR$/dollarbid/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.css" />
-        <option value="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html" />
         <option value="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.ts" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html" />
         <option value="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css" />
+        <option value="$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html" />
       </list>
     </option>
   </component>
@@ -200,12 +186,98 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/dollarbid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/animations/browser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/animations/browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/animations/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/a11y/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/accordion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/bidi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/coercion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/collections/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/keycodes/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/layout/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/observers/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/overlay/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/platform/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/portal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/scrolling/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/stepper/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/table/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/text-field/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/tree/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/common/http/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/common/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/common/locales/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/common/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/common/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/core/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/core/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/forms/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/badge/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/bottom-sheet/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/button-toggle/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/button/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/card/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/checkbox/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/chips/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/core/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/datepicker/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/dialog/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/divider/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/form-field/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/grid-list/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/icon/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/input/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/list/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/menu/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/paginator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/progress-bar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/progress-spinner/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/radio/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/select/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/sidenav/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/slide-toggle/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/slider/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/snack-bar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/sort/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/stepper/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/table/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/tabs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/toolbar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/tooltip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/tree/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/platform-browser/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/platform-browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/hammerjs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ngx-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/parse5/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/ajax/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/operators/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/src/ajax/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/src/internal-compatibility/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/src/operators/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/src/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/src/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/testing/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/rxjs/webSocket/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sl-blip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/zone.js/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/zone/benchmarks/express_app/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/zone/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="203" />
     <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -248,14 +320,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="bid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
-              <item name="dollarbid" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="nav" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dollarbid" type="b2602c69:ProjectViewProjectNode" />
@@ -323,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/dollarbid/package.json" />
       <command value="run" />
@@ -348,8 +412,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -363,36 +427,37 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533369471759</updated>
-      <workItem from="1533369473537" duration="31959000" />
+      <workItem from="1533369473537" duration="35318000" />
+      <workItem from="1533628064964" duration="6410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31959000" />
+    <option name="totallyTimeSpent" value="41728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968017" visible="true" weight="0.24947146" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" sideWeight="0.5010352" side_tool="true" visible="true" weight="0.24982357" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896482" visible="true" weight="0.24982357" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="npm" order="2" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +472,82 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="28" column="153" selection-start-line="28" selection-start-column="153" selection-end-line="28" selection-end-column="153" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" column="20" selection-start-line="117" selection-start-column="20" selection-end-line="117" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/User/user.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/favicon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -420,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="4986" column="6" lean-forward="true" selection-start-line="4986" selection-start-column="6" selection-end-line="4986" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,9 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,13 +598,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/menu/menu.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/loading/loading.component.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -481,9 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,9 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2160">
           <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,9 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -511,9 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="188" column="31" selection-start-line="188" selection-start-column="31" selection-end-line="188" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,14 +728,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="330">
           <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
+        <state relative-caret-position="585">
           <caret line="76" column="25" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -638,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -652,16 +759,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html">
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/nav/nav.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="300">
           <caret line="28" column="153" selection-start-line="28" selection-start-column="153" selection-end-line="28" selection-end-column="153" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
@@ -671,8 +778,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="210" column="22" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="22" />
+        <state relative-caret-position="297">
+          <caret line="240" column="26" lean-forward="true" selection-start-line="240" selection-start-column="26" selection-end-line="240" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dollarbid/src/app/bid/bid.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="65" selection-start-line="76" selection-start-column="65" selection-end-line="76" selection-end-column="65" />
         </state>
       </provider>
     </entry>
