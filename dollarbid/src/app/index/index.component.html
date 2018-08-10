@@ -9,7 +9,7 @@
 
   <!--</button>-->
   <div class="category_list">
-  <div class="category category_right category_bottom">
+  <div class="category category_right category_bottom top_left" (click)="openList(0)">
     <div class="category_icon">
       <mat-icon>storage</mat-icon>
     </div>
@@ -17,7 +17,7 @@
       全部
     </div>
   </div>
-  <div class="category category_right category_bottom">
+  <div class="category category_right category_bottom" (click)="openList(1)">
     <div class="category_icon">
       <mat-icon>flight</mat-icon>
     </div>
@@ -25,7 +25,7 @@
       大宗商品
     </div>
   </div>
-  <div class="category category_right category_bottom">
+  <div class="category category_right category_bottom" (click)="openList(2)">
     <div class="category_icon">
       <mat-icon>location_city</mat-icon>
     </div>
@@ -33,7 +33,7 @@
       不动产
     </div>
   </div>
-  <div class="category category_bottom">
+  <div class="category category_bottom top_right" (click)="openList(3)">
     <div class="category_icon">
       <mat-icon>local_post_office</mat-icon>
     </div>
@@ -41,15 +41,15 @@
       权证
     </div>
   </div>
-  <div class="category category_right">
+  <div class="category category_right bottom_left" (click)="openList(4)">
     <div class="category_icon">
-      <mat-icon>fastfood</mat-icon>
+      <mat-icon>restaurant</mat-icon>
     </div>
     <div class="category_name">
       食品药品
     </div>
   </div>
-  <div class="category category_right">
+  <div class="category category_right" (click)="openList(5)">
     <div class="category_icon">
       <mat-icon>filter_vintage</mat-icon>
     </div>
@@ -57,7 +57,7 @@
       珠宝贵金属
     </div>
   </div>
-  <div class="category category_right">
+  <div class="category category_right" (click)="openList(6)">
     <div class="category_icon">
       <mat-icon>local_mall</mat-icon>
     </div>
@@ -65,7 +65,7 @@
       奢侈品
     </div>
   </div>
-  <div class="category">
+  <div class="category bottom_right" (click)="openList(7)">
     <div class="category_icon">
       <mat-icon>child_friendly</mat-icon>
     </div>
@@ -147,3 +147,4 @@
 
 
 </div>
+

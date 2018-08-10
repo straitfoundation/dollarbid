@@ -1,8 +1,15 @@
+/deep/ .mat-dialog-container {
+  padding: 0px !important;
+  /*background-color: #efefef !important;*/
+}
 .example-container {
   display: flex;
   flex-direction: column;
 }
-
+.login_container {
+  padding: 24px;
+  background-color: white;
+}
 .example-container > * {
   width: 100%;
 }

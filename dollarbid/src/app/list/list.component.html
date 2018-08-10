@@ -1,0 +1,100 @@
+
+<div class="list">
+    <div class="header">
+      <div class="menu">
+
+        <button mat-button [matMenuTriggerFor]="menu" ><mat-icon>subject</mat-icon>{{list_name}}</button>
+          <mat-menu #menu="matMenu" [overlapTrigger]="true">
+            <button mat-menu-item (click)="openList(0)">
+              <mat-icon>storage</mat-icon>
+              <span>全部</span>
+            </button>
+            <button mat-menu-item (click)="openList(1)">
+              <mat-icon>flight</mat-icon>
+              <span>大宗商品</span>
+            </button>
+            <button mat-menu-item (click)="openList(2)">
+              <mat-icon>location_city</mat-icon>
+              <span>不动产</span>
+            </button>
+            <button mat-menu-item (click)="openList(3)">
+              <mat-icon>local_post_office</mat-icon>
+              <span>权证</span>
+            </button>
+            <button mat-menu-item (click)="openList(4)">
+              <mat-icon>restaurant</mat-icon>
+              <span>食品药品</span>
+            </button>
+            <button mat-menu-item (click)="openList(5)">
+              <mat-icon>filter_vintage</mat-icon>
+              <span>珠宝贵金属</span>
+            </button>
+            <button mat-menu-item (click)="openList(6)">
+              <mat-icon>local_mall</mat-icon>
+              <span>奢侈品</span>
+            </button>
+            <button mat-menu-item (click)="openList(7)">
+              <mat-icon>child_friendly</mat-icon>
+              <span>生活用品</span>
+            </button>
+          </mat-menu>
+      </div>
+      <div class="close">
+        <button mat-button (click)="close()">X</button>
+      </div>
+    </div>
+    <div class="blank">
+
+    </div>
+    <div class="goods" *ngFor="let good of good_filter" >
+
+      <div *ngIf="good.category === currentOption || currentOption === 0" class="good_container">
+
+      <div class="content_right content_right_progress">
+        <mat-progress-bar mode="determinate" value="{{good.progress/good.price*100}}" color="warn"></mat-progress-bar>
+      </div>
+      <div class="good_img">
+        <img mat-card-image src="{{good.img}}" alt="">
+      </div>
+      <div class="goods_content">
+        <p class="good_name">
+          {{good.name}}
+        </p>
+        <p class="good_desc" style="-webkit-box-orient: vertical">
+          {{good.desc}}
+        </p>
+        <div class="content_form">
+          <div class="content_right content_price">{{good.price}} WZC</div>
+        </div>
+        <div class="content_form">
+          <div class="content_left">已参与</div>
+          <div class="content_right content_progress">{{good.progress}} WZC</div>
+        </div>
+        <div class="content_form">
+          <div class="content_left">距离开奖</div>
+          <div class="content_right content_progress">{{good.price - good.progress}} WZC</div>
+        </div>
+        <div class="content_form">
+          <div class="content_left">发布日期</div>
+          <div class="content_right">{{good.endDate}}</div>
+        </div>
+        <div class="content_form">
+          <div class="content_left">截止日期</div>
+          <div class="content_right">{{good.endDate}}</div>
+        </div>
+        <div class="content_form">
+          <div class="content_left">交割方式</div>
+          <div class="content_right">三方担保/自行成交</div>
+        </div>
+        <div class="content_form">
+          <!--<div class="content_left">价格</div>-->
+          <button mat-raised-button class="btn_buy">1元抢购！</button>
+          <!--<div >$ {{good.price}}</div>-->
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+</div>

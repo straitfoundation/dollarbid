@@ -35,7 +35,8 @@ import {RegisterComponent} from "./register/register.component";
 import { BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {UserService} from "./User/user.service";
 import {BannerComponent} from "./banner/banner.component";
-import {BidComponent} from "./bid/bid.component";
+import {IndexComponent} from "./index/index.component";
+import {ListComponent} from "./list/list.component";
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import {BidComponent} from "./bid/bid.component";
     LoadingComponent,
     RegisterComponent,
     BannerComponent,
-    BidComponent,
+    IndexComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
@@ -83,6 +85,7 @@ import {BidComponent} from "./bid/bid.component";
     LoginComponent,
     LoadingComponent,
     RegisterComponent,
+    ListComponent,
   ],
   bootstrap: [AppComponent]
 })

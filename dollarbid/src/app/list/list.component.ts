@@ -1,44 +1,82 @@
-import { Component, OnInit } from '@angular/core';
-import {MatDialog, MatSnackBar} from '@angular/material';
+import {Component, Inject, OnInit} from '@angular/core';
+import {MAT_DIALOG_DATA, MatDialog, MatSnackBar} from '@angular/material';
 
 import {UserService} from '../User/user.service';
 
 import {LoadingComponent} from '../loading/loading.component';
-
+import {MatDialogRef} from '@angular/material';
 import {LoginComponent} from '../login/login.component';
-import {Element} from "./bid.service";
 declare var $: any;
 
 @Component({
-  selector: 'app-bid',
-  templateUrl: './bid.component.html',
-  styleUrls: ['./bid.component.css']
+  selector: 'app-list',
+  templateUrl: './list.component.html',
+  styleUrls: ['./list.component.css']
 })
-export class BidComponent implements OnInit {
+export class ListComponent implements OnInit {
   more: boolean;
   bet_txt: string;
   chainUrl: string;
   requestCount: number;
   loadingDialog: any;
+  list_name: any;
+  currentOption: any;
+  good_filter: any;
   private timer;
   goods = [
-    {id: 1, name: '英国白金汉宫', desc: '白金汉宫（Buckingham Palace）是英国君主位于伦敦的主要寝宫及办公处。宫殿坐落在威斯敏斯特，是国家庆典和王室欢迎礼举行场地之一，也是一处重要的旅游景点。', img: './assets/house.jpeg', price: 1000, progress: 600, endDate:'2018-9-10'},
-    {id: 1, name: '劳斯莱斯', desc: '2018款劳斯莱斯全新幻影第八代产品,全新铝制奢华架构打造,车身整备质量降低,刚性增强30%', img: './assets/car.jpeg', price: 9000, progress: 2900, endDate:'2018-9-10'},
-    {id: 1, name: '巴黎埃菲尔铁塔', desc: '埃菲尔铁塔（法语：La Tour Eiffel；英语：the Eiffel Tower）矗立在塞纳河南岸法国巴黎的战神广场，于1889年建成', img: './assets/aifier.jpeg', price: 1000, progress: 690, endDate:'2018-9-10'},
-    {id: 1, name: '法拉利458', desc: '法拉利458 Italia是一款中后置8缸双门跑车，在2009年法兰克福车展上推出，标志着法拉利（Ferrari）在其原有中后置发动机跑车的基础上实现了重大飞跃', img: './assets/f458.jpeg', price: 9000, progress: 2900, endDate:'2018-9-10'},
-    {id: 1, name: '悉尼歌剧院', desc: '悉尼歌剧院（Sydney Opera House），位于悉尼市区北部，是悉尼市地标建筑物，由丹麦建筑师约恩·乌松（Jorn Utzon）设计，一座贝壳形屋顶下方是结合剧院和厅室的水上综合建筑', img: './assets/sydney.jpeg', price: 1000, progress: 550, endDate:'2018-9-10'},
+    {id: 1, name: '英国白金汉宫', category: 2, desc: '白金汉宫（Buckingham Palace）是英国君主位于伦敦的主要寝宫及办公处。宫殿坐落在威斯敏斯特，是国家庆典和王室欢迎礼举行场地之一，也是一处重要的旅游景点。', img: './assets/house.jpeg', price: 1000, progress: 600, endDate:'2018-9-10'},
+    {id: 1, name: '劳斯莱斯', category: 1, desc: '2018款劳斯莱斯全新幻影第八代产品,全新铝制奢华架构打造,车身整备质量降低,刚性增强30%', img: './assets/car.jpeg', price: 900090009000, progress: 2900, endDate:'2018-9-10'},
+    {id: 1, name: '巴黎埃菲尔铁塔', category: 2,desc: '埃菲尔铁塔（法语：La Tour Eiffel；英语：the Eiffel Tower）矗立在塞纳河南岸法国巴黎的战神广场，于1889年建成', img: './assets/aifier.jpeg', price: 1000, progress: 690, endDate:'2018-9-10'},
+    {id: 1, name: '法拉利458', category: 1,desc: '法拉利458 Italia是一款中后置8缸双门跑车，在2009年法兰克福车展上推出，标志着法拉利（Ferrari）在其原有中后置发动机跑车的基础上实现了重大飞跃', img: './assets/f458.jpeg', price: 9000, progress: 2900, endDate:'2018-9-10'},
+    {id: 1, name: '悉尼歌剧院', category: 2,desc: '悉尼歌剧院（Sydney Opera House），位于悉尼市区北部，是悉尼市地标建筑物，由丹麦建筑师约恩·乌松（Jorn Utzon）设计，一座贝壳形屋顶下方是结合剧院和厅室的水上综合建筑', img: './assets/sydney.jpeg', price: 1000, progress: 550, endDate:'2018-9-10'},
 
   ];
-
-
+  option = [
+    {name: '全部'},
+    {name: '大宗商品'},
+    {name: '不动产'},
+    {name: '权证'},
+    {name: '食品药品'},
+    {name: '珠宝贵金属'},
+    {name: '奢侈品'},
+    {name: '生活用品'},
+  ];
+  options = [
+    '全部',
+    '大宗商品',
+    '不动产',
+    '权证',
+    '食品药品',
+    '珠宝贵金属',
+    '奢侈品',
+    '生活用品',
+  ];
   constructor(public dialog: MatDialog,
               private userService: UserService,
-              private snackBar: MatSnackBar) { }
+              private snackBar: MatSnackBar,
+              @Inject(MAT_DIALOG_DATA) public data: any,
+              public thisDialogRef: MatDialogRef<ListComponent>) { }
 
   ngOnInit() {
+    //this.option = this.data;
     this.more = true;
     this.bet_txt = '抢购';
     this.chainUrl = this.userService.getChainUrl();
+    this.list_name = this.options[this.data];
+    this.currentOption = this.data;
+    this.openList(this.currentOption);
+    // console.log(this.option);
+  }
+  openList(option: number){
+    this.good_filter = [];
+    this.currentOption = option;
+    this.list_name = this.options[option];
+    for (var i=0;i<this.goods.length;i++){
+      if (this.goods[i].category === this.currentOption || this.currentOption === 0) {
+        this.good_filter.push(this.goods[i]);
+      }
+    }
+
   }
   openLoading () {
     this.loadingDialog = this.dialog.open(LoadingComponent, {
@@ -241,5 +279,8 @@ export class BidComponent implements OnInit {
   }
   round(progress: number) {
     return Math.round(progress);
+  }
+  close(){
+    this.thisDialogRef.close();
   }
 }
