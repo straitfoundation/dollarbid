@@ -22,6 +22,7 @@ export class NavComponent implements OnInit {
   loadingDialog: any;
   apiUrl: any;
   _cookieUser: string;
+  user_name: string;
   private timer;
   //dialogRef = this.dialog;
   constructor(public dialog: MatDialog,
@@ -141,6 +142,8 @@ export class NavComponent implements OnInit {
           this.usrSvc.setUserAddress(data.useraddress);
           this.usrSvc.setUsername(data.username);
           this.instance.setLoginStatus(data.username);
+          this.instance.user_name = data.username;
+          console.log(this.instance.user_name);
         } else {
           console.log(data);
         }
@@ -149,6 +152,11 @@ export class NavComponent implements OnInit {
         // read again
       }
     });
+  }
+  setLoginStatus(username: string) {
+    this.isLogin = true;
+    this.username = username;
+    this.userService.setLoginSucceed();
   }
   getLoginStatus() {
     this.timer = setInterval(() => {

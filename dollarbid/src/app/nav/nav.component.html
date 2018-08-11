@@ -20,11 +20,11 @@
       </button>
     </mat-grid-tile>
     <mat-grid-tile>
-      <button mat-button>
+      <button mat-button (click)="Login()">
         <mat-icon>
           account_circle
         </mat-icon>
-        <p class="nav_label" (click)="Login()">未登陆</p>
+        <p class="nav_label" >{{user_name}}</p>
       </button>
     </mat-grid-tile>
 
