@@ -37,6 +37,8 @@ import {UserService} from "./User/user.service";
 import {BannerComponent} from "./banner/banner.component";
 import {IndexComponent} from "./index/index.component";
 import {ListComponent} from "./list/list.component";
+import { PublishComponent } from './publish/publish.component';
+import {FileUploadModule} from "ng2-file-upload";
 
 @NgModule({
   declarations: [
@@ -49,6 +51,7 @@ import {ListComponent} from "./list/list.component";
     BannerComponent,
     IndexComponent,
     ListComponent,
+    PublishComponent,
   ],
   imports: [
     BrowserModule,
@@ -77,6 +80,7 @@ import {ListComponent} from "./list/list.component";
     CookieModule.forRoot(),
     MatButtonToggleModule,
     MatProgressBarModule,
+    FileUploadModule,
   ],
   providers: [
     UserService,
@@ -86,6 +90,7 @@ import {ListComponent} from "./list/list.component";
     LoadingComponent,
     RegisterComponent,
     ListComponent,
+    PublishComponent,
   ],
   bootstrap: [AppComponent]
 })

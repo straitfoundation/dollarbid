@@ -4,6 +4,7 @@ import {LoginComponent} from '../login/login.component';
 import { UserService} from '../User/user.service';
 import {LoadingComponent} from '../loading/loading.component';
 import {CookieService} from "ngx-cookie";
+import {PublishComponent} from "../publish/publish.component";
 
 declare var $: any;
 
@@ -81,7 +82,7 @@ export class NavComponent implements OnInit {
 
   }
   openDialogPublish() {
-    this.togglePublishBtn();
+    //this.togglePublishBtn();
     this.openLoading();
     $.ajax({
       url: this.chainUrl + '/getBalance?from=' + this.userService.getUserAddress(),
@@ -94,20 +95,21 @@ export class NavComponent implements OnInit {
       success: function(data) {
         // console.log('enable publish button');
         // this.toggle();
-        this.instance.togglePublishBtn();
+        // this.instance.togglePublishBtn();
         this.instance.closeLoading();
         if (data.status === '200') {
           console.log('发布游戏，账户余额: ' + data.data.balance);
-          this.instance.usrSvc.setUserBalance(data.data.balance);
+          this.instance.userService.setUserBalance(data.data.balance);
           console.log(`初始化发布窗口`);
-          // const dialogRef = this.dialog.open(PublishComponent, {
-          //   width: '600px',
-          //   data: '',
-          // });
-          // dialogRef.afterClosed().subscribe(result => {
-          //   console.log(`关闭发布窗口`);
-          //   //this.dialogResult = result;
-          // });
+          const dialogRef = this.dialog.open(PublishComponent, {
+            width: '100%',
+            height: '100%',
+            data: '',
+          });
+          dialogRef.afterClosed().subscribe(result => {
+            console.log(`关闭发布窗口`);
+            //this.dialogResult = result;
+          });
         } else {
           console.log(data);
           return 0;

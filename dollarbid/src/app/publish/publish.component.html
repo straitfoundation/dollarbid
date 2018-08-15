@@ -1,0 +1,85 @@
+
+<input type="file" ng2FileSelect [uploader]="uploader" (change)="selectFile($event)" class="upload_btn" id="upload_btn"/>
+<div class="publish">
+  <div class="header">
+    <div class="title">
+      发布商品
+    </div>
+    <div class="close">
+      <button mat-button (click)="close()">X</button>
+    </div>
+  </div>
+  <div class="good_container">
+      <mat-form-field class="good_info">
+        <input matInput placeholder="商品名称" [(ngModel)]="good_name">
+        <button mat-button *ngIf="good_name" matSuffix mat-icon-button (click)="good_name=''">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+    <mat-form-field class="good_info">
+      <span matSuffix>WZC &nbsp;</span>
+      <input matInput placeholder="商品价格">
+    </mat-form-field>
+    <mat-form-field class="good_info">
+      <span matSuffix>天 &nbsp;</span>
+      <input matInput placeholder="商品有效期">
+      <mat-hint align="start"><strong>最长有效期180天</strong> </mat-hint>
+    </mat-form-field>
+    <mat-form-field class="good_info">
+      <mat-select placeholder="商品分类">
+        <mat-option value="self">无</mat-option>
+        <mat-option value="agency">大宗商品</mat-option>
+        <mat-option value="agency">不动产</mat-option>
+        <mat-option value="agency">权证</mat-option>
+        <mat-option value="agency">食品药品</mat-option>
+        <mat-option value="agency">珠宝贵金属</mat-option>
+        <mat-option value="agency">奢侈品</mat-option>
+        <mat-option value="agency">生活用品</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="good_info">
+      <textarea matInput
+                cdkTextareaAutosize
+                #autosize="cdkTextareaAutosize"
+                cdkAutosizeMinRows="1"
+                cdkAutosizeMaxRows="5" placeholder="商品描述" [(ngModel)]="good_desc"></textarea>
+      <button mat-button *ngIf="good_desc" matSuffix mat-icon-button (click)="good_desc=''">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+    <mat-form-field class="good_info">
+      <mat-select placeholder="交割方式">
+        <mat-option value="self">自行成交</mat-option>
+        <mat-option value="agency">第三方担保</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <div class="images">
+      <button mat-button (click)="selectImage()">选择商品头像</button>
+
+      <!--</div>-->
+      <img *ngIf="!not_select" src="{{imageData[imageData.length-1]}}" />
+      <img *ngIf="not_select" src="./assets/blank.png" />
+    </div>
+  </div>
+  <!--<form class="good_container">-->
+    <!--<mat-form-field class="good_info">-->
+      <!--<input matInput placeholder="Input">-->
+    <!--</mat-form-field>-->
+
+    <!--<mat-form-field class="good_info">-->
+      <!--<textarea matInput placeholder="Textarea"></textarea>-->
+    <!--</mat-form-field>-->
+
+    <!--<mat-form-field class="good_info">-->
+      <!--<mat-select placeholder="Select">-->
+        <!--<mat-option value="option">Option</mat-option>-->
+      <!--</mat-select>-->
+    <!--</mat-form-field>-->
+  <!--</form>-->
+
+  <!--<div class="uploading">-->
+  <!--<p>{{file_name}}</p>-->
+
+  <!--<button mat-flat-button color="warn" (click)="uploadImage()">上传</button>-->
+</div>
+
